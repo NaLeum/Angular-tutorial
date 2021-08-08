@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
+import { HiComponent } from './hi/hi.component';
 // AppModule 를 꾸며주겠다.
 // Module 은 독립 가능한 기능들의 상자이다. 
 @NgModule({
   // 선언값
   declarations: [
     AppComponent,
-    HelloComponent
+    HelloComponent,
+    HiComponent
     
   ],
   // 다른 모듈들
